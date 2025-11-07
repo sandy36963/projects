@@ -30,3 +30,8 @@ if st.button("Predict"):
         st.success("✅ Passenger will SURVIVE")
     else:
         st.error("❌ Passenger will NOT survive")
+        st.write("Model expects:", model.n_features_in_, "features")
+
+        
+
+
